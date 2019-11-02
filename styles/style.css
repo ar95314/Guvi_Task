@@ -1,9 +1,4 @@
-/*
- * Specific styles of signin component
- */
-/*
- * General styles
- */
+
  body, html {
   height: 100%;
   background-repeat: no-repeat;
@@ -24,16 +19,11 @@
   cursor: default;
 }
 
-/*
-* Card component
-*/
 .card {
   background-color: #ced4da;
-  /* just in case there no content*/
   padding: 20px 25px 30px;
   margin: 0 auto 25px;
   margin-top: 150px;
-  /* shadows and rounded borders */
   -moz-border-radius: 10px;
   -webkit-border-radius: 2px;
   border-radius: 10px;
@@ -52,9 +42,6 @@
   border-radius: 50%;
 }
 
-/*
-* Form styles
-*/
 .profile-name-card {
   font-size: 16px;
   font-weight: bold;
@@ -109,7 +96,6 @@
 }
 
 .btn.btn-signin {
-  /*background-color: #4d90fe; */
   background-color: rgb(104, 145, 162);
   /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
   padding: 0px;
