@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+        <div class="container">
+                <div class="card card-container">
+                    <h2 class="text-center">Login</h2>
+     <p id="profile-name" class="profile-name-card"></p>
+                    <form class="form-signin">
+                        <span id="reauth-email" class="reauth-email"></span>
+                        <input type="email" id="inputEmail" class="form-control" placeholder="Email address">
+                        <input type="password" id="inputPassword" class="form-control" placeholder="Password">
+                        <button class="btn btn-lg btn-primary btn-block btn-signin" type="button" id="login">Sign in</button>
+                    </form>
+                    <a href="templates/signup.html" class="forgot-password">
+                        Not a User?
+                    </a>
+                </div>
+            </div>
+            <script src="scripts/login.js"></script>
+</body>
+</html>
